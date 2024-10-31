@@ -1,65 +1,14 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#layout-menu {
+	width: 150px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
-    margin: 0;
+dl {
+    margin-left: 2em;
 }
 
-.sidebar {
-    width: 15%; /* Smaller sidebar width */
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-right: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+dl a {
+	color: #021b6d;
 }
-
-.sidebar h3 {
-    margin-bottom: 1.5rem;
-    color: blue; /* Blue color for sidebar section headings */
-    border-bottom: 1px solid #ccc; /* Horizontal line under sidebar headings */
-    padding-bottom: 5px;
-}
-
-.sidebar ul {
-    list-style-type: none;
-}
-
-.sidebar li {
-    margin-bottom: 10px;
-}
-
-.sidebar a {
-    text-decoration: none;
-    color: #333;
-    font-weight: italic;
-}
-
-.content {
-    padding: 20px;
-    width: 85%; /* Adjusted to fit the smaller sidebar */
-    overflow-y: auto;
-}
-
-.content section {
-    margin-bottom: 2rem;
-}
-
-h2 {
-    color: black; /* Black color for default text */
-    border-bottom: 1px solid #ccc; /* Horizontal line under main headings */
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-p {
-    line-height: 1.6;
-    color: black; /* Black color for paragraph text */
+dl {
+	color: #222222;
 }
